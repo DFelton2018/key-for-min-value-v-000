@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
 
 end
 
-else nil
+elsif name_hash = {}
+nil
 
 end
