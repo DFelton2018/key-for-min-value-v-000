@@ -6,4 +6,3 @@
 def key_for_min_value(name_hash)
   name_hash.reduce{ |f, s| f.last > s.last ? s : f }.first
 end
-name_hash
