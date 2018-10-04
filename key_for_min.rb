@@ -6,7 +6,7 @@
 def key_for_min_value(name_hash)
   name_hash = name_hash.to_a
   
-  a_val = 500
+  a_val = 1000
   a_key = 0
   
   name_hash.each do |i|
