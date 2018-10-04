@@ -6,6 +6,6 @@
 def key_for_min_value(name_hash)
   key_name = []
   name_hash.each.collect{ |key,value| key_name << key }.map
-  key_name.last
+  key_name
 end
 
