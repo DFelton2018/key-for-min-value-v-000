@@ -4,8 +4,6 @@
 
 
 def key_for_min_value(name_hash)
-  key_name = []
-  name_hash.each{ |key,value| key_name << value }.map
-  key_name
+  name_hash = name_hash.to_a
 end
 
