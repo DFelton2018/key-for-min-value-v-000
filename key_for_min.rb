@@ -4,7 +4,8 @@
 
 
 def key_for_min_value(name_hash)
-  name_hash.each.collect do |key_a,key_b|
-    if 
+  name_hash.each.collect do |key_a, key_b|
+    if  key_a > key_b
+      key_b
 end
 
